@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HelloWorldGenerator from './HelloWorldGenerator';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<HelloWorldGenerator />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.unregister();
